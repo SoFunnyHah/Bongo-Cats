@@ -11,7 +11,7 @@ music.volume = '0.5';
 function backGrounfMusicDelay (){
     music.play();
 }
-setTimeout (backGrounfMusicDelay, 2400);
+setTimeout (backGrounfMusicDelay, 2490);
 // music.setAttribute("loop", "-1");
 let atribute1 = document.getElementById('atribute1');
 let autoTune = document.getElementById('autoTune'); 
