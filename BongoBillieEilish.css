@@ -1,0 +1,77 @@
+                        /* BongoCat Window */
+
+                        body{
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                        }
+                        
+                        main {
+                            position: relative;
+                            z-index: 0;
+                            /* background-color: lightblue; */
+                            border: 2px solid black;
+                            width: 50%;
+                            height: 30%;
+                        }
+                        
+                        img#bongoCat {
+                            z-index: 100;
+                            width: 100%;
+                            height: 100%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            background-image: url(./img/Atributes/drum.png);
+                            background-size: 38% 35%;
+                            background-repeat: no-repeat;
+                            background-position: left 30% bottom 15.5%;
+                        }
+                        
+                        img#atribute1 {
+                            position: absolute;
+                            bottom: 37%;
+                            left: 34%;
+                            width: 36%;
+                            height: 35%;
+                            transform: rotate(24deg);
+                        }
+                        
+                            /*DISCO DANCE  */
+div#disco{
+    position: absolute;
+    z-index:100;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: none;
+    animation: discoDance 4.5s infinite;
+
+
+}
+@keyframes discoDance {
+    0% {background-color: noce;}
+    10%{background-color: yellow;}
+    20%{background-color: purple;}
+    30%{background-color: red;}
+    40%{background-color: green;}
+    50%{background-color: blue;}
+    60%{background-color: yellow;}
+    70%{background-color: purple;}
+    80%{background-color: red;}
+    90%{background-color: green;}
+    100%{background-color: blue;}
+}
+
+/* footer */
+footer{
+    justify-content: center;
+    background-color: aquamarine;
+    width: 50.3%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
